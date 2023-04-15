@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    opacity: .8;
+}
+
+header {
+    color: white;
+    margin: auto;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+form {
+    width: 40%;
+    background-color: #2d96e1;
+    margin: auto;
+    padding: 50px 60px;
+}
+
+label {
+    display: block;
+    padding-bottom: 15px;
+}
+
+#name, #email, #number, #comment, #dropdown {
+    padding: 10px;
+    margin: 5px 0 0 0;
+    display: block;
+    border-width: 1px;
+}
+
+#name, #email, #number, #dropdown {
+    border-radius: 6px;
+}
+
+.radio, .checkbox {
+    padding: 6px 0 0 0;
+}
+
+input, select, textarea, #submit {
+    width: 90%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: unset;
+}
+
+#submit {
+    padding: 8px;
+    margin: 0 10px;
+}
