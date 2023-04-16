@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
@@ -14,10 +18,10 @@ header {
 }
 
 form {
-    width: 40%;
+    width: 45%;
     background-color: #2d96e1;
     margin: auto;
-    padding: 50px 60px;
+    padding: 50px 70px;
 }
 
 label {
@@ -41,7 +45,7 @@ label {
 }
 
 input, select, textarea, #submit {
-    width: 90%;
+    width: 100%;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -50,5 +54,4 @@ input[type="radio"], input[type="checkbox"] {
 
 #submit {
     padding: 8px;
-    margin: 0 10px;
 }
